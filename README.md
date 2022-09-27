@@ -8,7 +8,7 @@ Hybrid bookmarklet to run after validating markup using the [Nu HTML Checker](ht
 - Issues that are not pure WCAG 4.1.1 Parsing issues are removed.
 - Issues that may not be hard WCAG 4.1.1 Parsing issues but should be considered for fixing will be identified as "Not a WCAG 4.1.1 Parsing failure / Validation Issue: ..."
 
-![Screenshot of issue that is not a WCAG 4.1.1 Failure marked as Not a WCAG 4.1.1 Parsing failure / Validation Issue](https://user-images.githubusercontent.com/3695795/192619200-a23453b5-b346-45ca-b829-937515885a57.png)
+![Screenshot of issue that is not a WCAG 4.1.1 Failure marked as Not a WCAG 4.1.1 Parsing failure / Validation Issue](https://user-images.githubusercontent.com/3695795/192630728-1ade6959-2282-4cb4-9e0f-f2c9011bd49b.png)
 
 ## Background
 There are currently two schools of thought with regards to testing for conformance to WCAG `4.1.1 Parsing` after running the [Nu Html Checker](https://validator.w3.org/nu/). 
