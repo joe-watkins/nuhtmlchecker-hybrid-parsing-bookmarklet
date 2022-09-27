@@ -24,5 +24,5 @@ I've combined these two approaches so that only true WCAG `4.1.1` failures are p
 
 
 ## Thank you
-- Thank you to Steve Faulkner for his contributions to the web and the code this was based on. [https://github.com/stevefaulkner/wcagparsing](wcagparsing)
+- Thank you to Steve Faulkner for his contributions to the web and the code this was based on. [wcagparsing](https://github.com/stevefaulkner/wcagparsing)
 - Thank you to Christophe Strobbe who helped us understand what true `4.1.1 Parsing` conformance is and what some of this code is based on. [WCAG Syntax Only Bookmarklet - Christophe Strobbe](https://cstrobbe.gitlab.io/A11yWorks/wcagtests/html5/sc_4.1.1_syntax/wcag-syntax-bookmarklet.html)
