@@ -7,7 +7,7 @@ There are currently two schools of thought with regards to testing for conforman
 - [Check for WCAG 2.0 parsing compliance bookmarklet - Steve Faulkner](https://validator.w3.org/nu/about.html) [validation type issues remain e.g. content model]
 - [WCAG Syntax Only Bookmarklet - Christophe Strobbe](https://cstrobbe.gitlab.io/A11yWorks/wcagtests/html5/sc_4.1.1_syntax/wcag-syntax-bookmarklet.html) [removes all validation type issues leaving pure syntax-style issues]
 
-I've combined these two approaches so that only true WCAG 4.1.1 failures are presented, but issues that are not hard failures but are worth consideration of fixing are still present in the results and clearly marked as such.
+I've combined these two approaches so that only true WCAG 4.1.1 failures are presented, but issues that are not hard failures and are worth consideration of fixing are still present in the results and clearly marked as such.
 
 ## How to use
 - Create the Nu HTML Checker Hybrid bookmarklet with [this JavaScript](https://github.com/joe-watkins/nuhtmlchecker-parsing-bookmarklet/blob/main/nuhtmlchecker-parsing-bookmarklet.js) as the URL for the bookmarklet. Or, visit this URL and drag it to your bookmarks.
