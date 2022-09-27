@@ -3,7 +3,7 @@ Hybrid bookmarklet to run after validating markup using the [Nu HTML Checker](ht
 
 ## How to use
 - Visit [Nu HTMl Checker Bookmarklet page](https://cdpn.io/pen/debug/JjvMzeO) and drag it to your bookmarks.
-- Run the [Check serialized DOM of current page](https://validator.w3.org/nu/about.html) bookmarklet to validate the page.
+- Run the [Check serialized DOM of current page](https://validator.w3.org/nu/about.html) bookmarklet to validate the page. Or, use the "Send selected DOM" button in the [ARC Toolkit](https://www.tpgi.com/arc-platform/arc-toolkit/) to send the DOM to the validator.
 - Then run the Nu HTML Checker Hybrid bookmarklet by clicking on it in your bookmarks to see the results.
 - Issues that are not pure WCAG `4.1.1 Parsing` issues are removed.
 - Issues that may not be hard WCAG `4.1.1 Parsing` issues but should be considered for fixing will be identified as "Not a WCAG 4.1.1 Parsing failure / Validation Issue: ..."
