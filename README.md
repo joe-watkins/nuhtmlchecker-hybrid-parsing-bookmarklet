@@ -1,4 +1,4 @@
-# nuhtmlchecker-parsing-bookmarklet
+# NU HTML Checker Hybrid Parsing Bookmarklet
 Hybrid bookmarklet to run after validating markup using the [Nu HTML Checker](https://validator.w3.org/nu/about.html) to check for WCAG 4.1.1 Parsing conformance.
 
 ## How to use
