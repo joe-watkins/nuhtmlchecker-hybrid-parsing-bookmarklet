@@ -39,5 +39,35 @@ javascript: (function() {
             }
         }
     }
-    alert('Complete. ' + cnt + ' items updated.')
+    alert('Complete. ' + cnt + ' items updated.');
+    const killNonFailuresBtn = document.createElement('button');
+
+			killNonFailuresBtn.innerHTML = 'Hide Non-WCAG 4.1.1 failures';
+			killNonFailuresBtn.setAttribute('style','position: fixed; top: 0; right: 0; margin-top: 1em; margin-right: 1em;');
+			killNonFailuresBtn.setAttribute('data-faulkners', 'on');
+
+			document.body.appendChild(killNonFailuresBtn);
+
+			killNonFailuresBtn.addEventListener('click', (e) => {
+				// e.currentTarget.classList.toggle('active'); // works correctly
+				let el = e.currentTarget,
+						faulknersState = el.getAttribute('data-faulkners');
+						if(faulknersState == 'on'){
+							el.setAttribute('data-faulkners','off');
+							el.innerHTML = 'Show Non-WCAG 4.1.1 failures';
+						}else{
+							el.setAttribute('data-faulkners','on');
+							el.innerHTML = 'Hide Non-WCAG 4.1.1 failures';
+						}
+						let nonWcagIssues = document.getElementsByClassName('error parsingIssues validationIssue'), y, nonWcagIssue;
+						for (y = 0; y < nonWcagIssues.length; y += 1) {
+							nonWcagIssue = nonWcagIssues[y];
+							let nonWcagIssueVisibility = nonWcagIssue.style.display;
+									if(nonWcagIssueVisibility == 'block'){
+										nonWcagIssue.style.display = 'none';
+									}else{
+										nonWcagIssue.style.display = 'block';
+									}
+						}
+			});
 })();
