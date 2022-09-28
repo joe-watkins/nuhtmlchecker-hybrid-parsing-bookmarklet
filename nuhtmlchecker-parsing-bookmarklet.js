@@ -49,7 +49,6 @@ javascript: (function() {
 			document.body.appendChild(killNonFailuresBtn);
 
 			killNonFailuresBtn.addEventListener('click', (e) => {
-				// e.currentTarget.classList.toggle('active'); // works correctly
 				let el = e.currentTarget,
 						faulknersState = el.getAttribute('data-faulkners');
 						if(faulknersState == 'on'){
