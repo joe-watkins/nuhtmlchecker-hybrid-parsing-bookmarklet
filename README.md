@@ -2,7 +2,7 @@
 Hybrid bookmarklet to run after validating markup using the [Nu HTML Checker](https://validator.w3.org/nu/about.html) to check for WCAG `4.1.1 Parsing` conformance.
 
 ## How to use
-- Visit [Nu HTMl Checker Bookmarklet page](https://cdpn.io/pen/debug/JjvMzeO) and drag it to your bookmarks.
+- Visit [Nu HTMl Checker Bookmarklet page](https://cdpn.io/pen/debug/JjvMzeO) and drag it to your bookmarks. Or, manually create your own by using [this JavaScript](https://raw.githubusercontent.com/joe-watkins/nuhtmlchecker-hybrid-parsing-bookmarklet/main/nuhtmlchecker-parsing-bookmarklet.js) as the URL.
 - Run the [Check serialized DOM of current page](https://validator.w3.org/nu/about.html) bookmarklet to validate the page. Or, use the "Send selected DOM" button in the [ARC Toolkit](https://www.tpgi.com/arc-platform/arc-toolkit/) to send the DOM to the validator.
 - Then run the Nu HTML Checker Hybrid bookmarklet by clicking on it in your bookmarks to see the results.
 - Issues that are not pure WCAG `4.1.1 Parsing` issues are removed.
