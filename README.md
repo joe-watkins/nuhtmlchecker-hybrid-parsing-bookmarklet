@@ -13,7 +13,7 @@ Hybrid bookmarklet to run after validating markup using the [Nu Html Checker](ht
 ## Background
 There are currently two schools of thought with regards to testing for conformance to WCAG `4.1.1 Parsing` after running the [Nu Html Checker](https://validator.w3.org/nu/). 
 
-- [Check for WCAG 2.0 parsing compliance bookmarklet - Steve Faulkner](https://validator.w3.org/nu/about.Html) [validation type issues remain e.g. content model]
+- [Check for WCAG 2.0 parsing compliance bookmarklet - Steve Faulkner](https://validator.w3.org/nu/about.html) [validation type issues remain e.g. content model]
 - [WCAG Syntax Only Bookmarklet - Christophe Strobbe](https://cstrobbe.gitlab.io/A11yWorks/wcagtests/Html5/sc_4.1.1_syntax/wcag-syntax-bookmarklet.Html) [removes all validation type issues leaving pure syntax-style issues]
 
 I've combined these two approaches so that only true WCAG `4.1.1` failures are presented, but issues that are not hard failures and are worth consideration of fixing are still present in the results and clearly marked as such.
