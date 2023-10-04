@@ -14,7 +14,7 @@ Hybrid bookmarklet to run after validating markup using the [Nu Html Checker](ht
 There are currently two schools of thought with regards to testing for conformance to WCAG `4.1.1 Parsing` after running the [Nu Html Checker](https://validator.w3.org/nu/). 
 
 - [Check for WCAG 2.0 parsing compliance bookmarklet - Steve Faulkner](https://validator.w3.org/nu/about.Html) [validation type issues remain e.g. content model]
-- [WCAG Syntax Only Bookmarklet - Christophe Strobbe](https://cstrobbe.gitlab.io/A11yWorks/wcagtests/Html5/sc_4.1.1_syntax/wcag-syntax-bookmarklet.Html) [removes all validation type issues leaving pure syntax-style issues]
+- [WCAG Syntax Only Bookmarklet - Christophe Strobbe](https://cstrobbe.gitlab.io/A11yWorks/wcagtests/html5/sc_4.1.1_syntax/wcag-syntax-bookmarklet.html) [removes all validation type issues leaving pure syntax-style issues]
 
 I've combined these two approaches so that only true WCAG `4.1.1` failures are presented, but issues that are not hard failures and are worth consideration of fixing are still present in the results and clearly marked as such.
 
@@ -25,4 +25,4 @@ I've combined these two approaches so that only true WCAG `4.1.1` failures are p
 
 ## Thank you
 - Thank you to Steve Faulkner for his contributions to the web and the code this was based on. [wcagparsing](https://github.com/stevefaulkner/wcagparsing)
-- Thank you to Christophe Strobbe who helped us understand what true `4.1.1 Parsing` conformance is and what some of this code is based on. [WCAG Syntax Only Bookmarklet - Christophe Strobbe](https://cstrobbe.gitlab.io/A11yWorks/wcagtests/Html5/sc_4.1.1_syntax/wcag-syntax-bookmarklet.Html)
+- Thank you to Christophe Strobbe who helped us understand what true `4.1.1 Parsing` conformance is and what some of this code is based on. [WCAG Syntax Only Bookmarklet - Christophe Strobbe](https://cstrobbe.gitlab.io/A11yWorks/wcagtests/html5/sc_4.1.1_syntax/wcag-syntax-bookmarklet.html)
